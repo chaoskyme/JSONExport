@@ -9,6 +9,24 @@
 /* Begin PBXBuildFile section */
 		01ACC24B1FBB42E300C410C2 /* Swift-Codable.json in Resources */ = {isa = PBXBuildFile; fileRef = 01ACC24A1FBB42E300C410C2 /* Swift-Codable.json */; };
 		166AF5CE1CEF6C3600516EDD /* Swift-Struct-Gloss.json in Resources */ = {isa = PBXBuildFile; fileRef = 166AF5CD1CEF6C3600516EDD /* Swift-Struct-Gloss.json */; };
+		384A9C4E21C243A500FB35D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384A9C4D21C243A500FB35D4 /* Cocoa.framework */; };
+		384A9C5121C243A500FB35D4 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384A9C5021C243A500FB35D4 /* SourceEditorExtension.swift */; };
+		384A9C5321C243A500FB35D4 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384A9C5221C243A500FB35D4 /* SourceEditorCommand.swift */; };
+		384A9C5821C243A500FB35D4 /* JSONExport-Xcode.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 384A9C4B21C243A500FB35D4 /* JSONExport-Xcode.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		384A9C6021C2478900FB35D4 /* SharedUtilityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E286D00A1A226ADE001AEF0D /* SharedUtilityMethods.swift */; };
+		384A9C6121C2484200FB35D4 /* LangModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28631501A158CFA0041B178 /* LangModel.swift */; };
+		384A9C6221C2484600FB35D4 /* Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E286314E1A158CFA0041B178 /* Constructor.swift */; };
+		384A9C6321C2484900FB35D4 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E286314F1A158CFA0041B178 /* DataType.swift */; };
+		384A9C6421C2484E00FB35D4 /* UtilityMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28631511A158CFA0041B178 /* UtilityMethod.swift */; };
+		384A9C6521C2485200FB35D4 /* HeaderFileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278F9C51A2149AC00306EFC /* HeaderFileData.swift */; };
+		384A9C6621C2485600FB35D4 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608896431CF278440074CB80 /* Author.swift */; };
+		384A9C6721C248CC00FB35D4 /* FileRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA87D71A05C16300648EB6 /* FileRepresenter.swift */; };
+		384A9C6821C248D000FB35D4 /* HeaderFileRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278F9C91A2152D800306EFC /* HeaderFileRepresenter.swift */; };
+		384A9C6921C248D400FB35D4 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA87D91A05C1BE00648EB6 /* Property.swift */; };
+		384A9C6A21C248D700FB35D4 /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21292571A0C58CF0015027D /* SharedConstants.swift */; };
+		384A9C6B21C248DA00FB35D4 /* FileContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BA2C41A162B54005CE143 /* FileContentBuilder.swift */; };
+		384A9C7E21C24A1000FB35D4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2197C5C1A0EAEB900549D03 /* StringExtension.swift */; };
+		384A9C8221C257AB00FB35D4 /* Swift-Mappable.json in Resources */ = {isa = PBXBuildFile; fileRef = 384A9C8121C257AB00FB35D4 /* Swift-Mappable.json */; };
 		608896441CF278440074CB80 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608896431CF278440074CB80 /* Author.swift */; };
 		60FB8FF01B9B361600290979 /* Java-Android Realm.json in Resources */ = {isa = PBXBuildFile; fileRef = 60FB8FE61B9B361600290979 /* Java-Android Realm.json */; };
 		60FB8FF11B9B361600290979 /* Java-Android.json in Resources */ = {isa = PBXBuildFile; fileRef = 60FB8FE71B9B361600290979 /* Java-Android.json */; };
@@ -47,9 +65,41 @@
 		E2FA87DA1A05C1BE00648EB6 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA87D91A05C1BE00648EB6 /* Property.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		384A9C5621C243A500FB35D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FA87AD1A059AC100648EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 384A9C4A21C243A500FB35D4;
+			remoteInfo = "JSONExport-Xcode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		384A9C5C21C243A500FB35D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				384A9C5821C243A500FB35D4 /* JSONExport-Xcode.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		01ACC24A1FBB42E300C410C2 /* Swift-Codable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Swift-Codable.json"; path = "Supported Languages/Swift-Codable.json"; sourceTree = "<group>"; };
 		166AF5CD1CEF6C3600516EDD /* Swift-Struct-Gloss.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Swift-Struct-Gloss.json"; path = "Supported Languages/Swift-Struct-Gloss.json"; sourceTree = "<group>"; };
+		384A9C4B21C243A500FB35D4 /* JSONExport-Xcode.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JSONExport-Xcode.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		384A9C4D21C243A500FB35D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		384A9C5021C243A500FB35D4 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		384A9C5221C243A500FB35D4 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		384A9C5421C243A500FB35D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		384A9C5D21C2443D00FB35D4 /* JSONExport-Xcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JSONExport-Xcode.entitlements"; sourceTree = "<group>"; };
+		384A9C5F21C245DB00FB35D4 /* JSONExport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JSONExport.entitlements; sourceTree = "<group>"; };
+		384A9C8121C257AB00FB35D4 /* Swift-Mappable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Swift-Mappable.json"; sourceTree = "<group>"; };
 		608896431CF278440074CB80 /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		60FB8FE61B9B361600290979 /* Java-Android Realm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Java-Android Realm.json"; path = "Supported Languages/Java-Android Realm.json"; sourceTree = "<group>"; };
 		60FB8FE71B9B361600290979 /* Java-Android.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Java-Android.json"; path = "Supported Languages/Java-Android.json"; sourceTree = "<group>"; };
@@ -94,6 +144,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		384A9C4821C243A500FB35D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384A9C4E21C243A500FB35D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FA87B21A059AC100648EB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,6 +162,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		384A9C4C21C243A500FB35D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				384A9C4D21C243A500FB35D4 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		384A9C4F21C243A500FB35D4 /* JSONExport-Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				384A9C8121C257AB00FB35D4 /* Swift-Mappable.json */,
+				384A9C5D21C2443D00FB35D4 /* JSONExport-Xcode.entitlements */,
+				384A9C5021C243A500FB35D4 /* SourceEditorExtension.swift */,
+				384A9C5221C243A500FB35D4 /* SourceEditorCommand.swift */,
+				384A9C5421C243A500FB35D4 /* Info.plist */,
+			);
+			path = "JSONExport-Xcode";
+			sourceTree = "<group>";
+		};
 		E20A0DA41A117096003B3D62 /* File content generators */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +274,8 @@
 			isa = PBXGroup;
 			children = (
 				E2FA87B71A059AC100648EB6 /* JSONExport */,
+				384A9C4F21C243A500FB35D4 /* JSONExport-Xcode */,
+				384A9C4C21C243A500FB35D4 /* Frameworks */,
 				E2FA87B61A059AC100648EB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -204,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				E2FA87B51A059AC100648EB6 /* JSONExport.app */,
+				384A9C4B21C243A500FB35D4 /* JSONExport-Xcode.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +292,7 @@
 		E2FA87B71A059AC100648EB6 /* JSONExport */ = {
 			isa = PBXGroup;
 			children = (
+				384A9C5F21C245DB00FB35D4 /* JSONExport.entitlements */,
 				E20A0DA61A1170C3003B3D62 /* Third party libraries */,
 				E20A0DA51A1170B6003B3D62 /* Misc */,
 				E20A0DA41A117096003B3D62 /* File content generators */,
@@ -236,6 +318,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		384A9C4A21C243A500FB35D4 /* JSONExport-Xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384A9C5B21C243A500FB35D4 /* Build configuration list for PBXNativeTarget "JSONExport-Xcode" */;
+			buildPhases = (
+				384A9C4721C243A500FB35D4 /* Sources */,
+				384A9C4821C243A500FB35D4 /* Frameworks */,
+				384A9C4921C243A500FB35D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSONExport-Xcode";
+			productName = "JSONExport-Xcode";
+			productReference = 384A9C4B21C243A500FB35D4 /* JSONExport-Xcode.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 		E2FA87B41A059AC100648EB6 /* JSONExport */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2FA87D11A059AC100648EB6 /* Build configuration list for PBXNativeTarget "JSONExport" */;
@@ -243,10 +342,12 @@
 				E2FA87B11A059AC100648EB6 /* Sources */,
 				E2FA87B21A059AC100648EB6 /* Frameworks */,
 				E2FA87B31A059AC100648EB6 /* Resources */,
+				384A9C5C21C243A500FB35D4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				384A9C5721C243A500FB35D4 /* PBXTargetDependency */,
 			);
 			name = JSONExport;
 			productName = JSONExport;
@@ -260,13 +361,30 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Ahmed Ali";
 				TargetAttributes = {
+					384A9C4A21C243A500FB35D4 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = YLKVH8SU69;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					E2FA87B41A059AC100648EB6 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = YLKVH8SU69;
 						LastSwiftMigration = 1000;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -284,11 +402,20 @@
 			projectRoot = "";
 			targets = (
 				E2FA87B41A059AC100648EB6 /* JSONExport */,
+				384A9C4A21C243A500FB35D4 /* JSONExport-Xcode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		384A9C4921C243A500FB35D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384A9C8221C257AB00FB35D4 /* Swift-Mappable.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FA87B31A059AC100648EB6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,6 +446,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		384A9C4721C243A500FB35D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384A9C6221C2484600FB35D4 /* Constructor.swift in Sources */,
+				384A9C6321C2484900FB35D4 /* DataType.swift in Sources */,
+				384A9C7E21C24A1000FB35D4 /* StringExtension.swift in Sources */,
+				384A9C6521C2485200FB35D4 /* HeaderFileData.swift in Sources */,
+				384A9C6621C2485600FB35D4 /* Author.swift in Sources */,
+				384A9C5121C243A500FB35D4 /* SourceEditorExtension.swift in Sources */,
+				384A9C6421C2484E00FB35D4 /* UtilityMethod.swift in Sources */,
+				384A9C6921C248D400FB35D4 /* Property.swift in Sources */,
+				384A9C6821C248D000FB35D4 /* HeaderFileRepresenter.swift in Sources */,
+				384A9C6121C2484200FB35D4 /* LangModel.swift in Sources */,
+				384A9C6721C248CC00FB35D4 /* FileRepresenter.swift in Sources */,
+				384A9C5321C243A500FB35D4 /* SourceEditorCommand.swift in Sources */,
+				384A9C6021C2478900FB35D4 /* SharedUtilityMethods.swift in Sources */,
+				384A9C6A21C248D700FB35D4 /* SharedConstants.swift in Sources */,
+				384A9C6B21C248DA00FB35D4 /* FileContentBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FA87B11A059AC100648EB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +495,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		384A9C5721C243A500FB35D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 384A9C4A21C243A500FB35D4 /* JSONExport-Xcode */;
+			targetProxy = 384A9C5621C243A500FB35D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		E2FA87C01A059AC100648EB6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -358,6 +515,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		384A9C5921C243A500FB35D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "JSONExport-Xcode/JSONExport-Xcode.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YLKVH8SU69;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "JSONExport-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guoxiaomei.JSONExport-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MacWildcardDev;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		384A9C5A21C243A500FB35D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "JSONExport-Xcode/JSONExport-Xcode.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = YLKVH8SU69;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "JSONExport-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guoxiaomei.JSONExport-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MacWildcardDev;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		E2FA87CF1A059AC100648EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -464,13 +679,20 @@
 		E2FA87D21A059AC100648EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JSONExport/JSONExport.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YLKVH8SU69;
 				INFOPLIST_FILE = JSONExport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.ali.$(PRODUCT_NAME:rfc1034identifier)";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoxiaomei.JSONExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MacWildcardDev;
 				SWIFT_OBJC_BRIDGING_HEADER = "JSONExport/JSONExport-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -481,13 +703,20 @@
 		E2FA87D31A059AC100648EB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JSONExport/JSONExport.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YLKVH8SU69;
 				INFOPLIST_FILE = JSONExport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.ali.$(PRODUCT_NAME:rfc1034identifier)";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guoxiaomei.JSONExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MacWildcardDev;
 				SWIFT_OBJC_BRIDGING_HEADER = "JSONExport/JSONExport-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
@@ -497,6 +726,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		384A9C5B21C243A500FB35D4 /* Build configuration list for PBXNativeTarget "JSONExport-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384A9C5921C243A500FB35D4 /* Debug */,
+				384A9C5A21C243A500FB35D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E2FA87B01A059AC100648EB6 /* Build configuration list for PBXProject "JSONExport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -8,6 +8,7 @@ Using JSONExport you will be able to:
 * Change the root class name.
 * Set a class name prefix for the generated classes.
 * Set package name for Java files.
+* Support Xcode Extension.
 
 Generated Files
 ========================
